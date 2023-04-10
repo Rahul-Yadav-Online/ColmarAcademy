@@ -1,73 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900;&display=swap');
 
-*{
+/*********** Large Screen *************/
+@media only screen and (min-width: 768px) {
+    .desktop {
+        visibility: visible;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .container {
+        margin: 0px 24px;
+    }
+
+    header{
+        height: 64px;
+    }
+    
+}
+
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
-    font-family: 'Montserrat','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif, serif;
+    font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif, serif;
     font-weight: 500;
     letter-spacing: 2px;
 }
 
-.container{
-    margin: 0px 24px;
-}
-
-.bg-gray{
+.bg-gray {
     background-color: lightgray;
 }
 
-.gridcontainer{
+
+.gridcontainer {
     display: grid;
     grid-template-columns: 60% 40%;
     column-gap: 24px;
 }
 
-.gridcontainer-3{
+.gridcontainer-3 {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 32px;
     row-gap: 32px;
 }
 
-.vspacing32{
+.vspacing32 {
     padding: 32px 0px;
 }
 
-.section-heading{
+.section-heading {
     font-size: 40px;
     font-weight: 900;
     color: #454545;
     text-align: center;
-    padding : 32px 0px 0px 0px;
+    padding: 32px 0px 0px 0px;
 }
 
 /*
 Navigation Menu
 */
-nav{
+nav {
     height: 64px;
     padding: 16px 0px;
 }
 
+
+
 /** Logo **/
-#logo{
+#logo {
     display: inline-block;
     height: 32px;
 }
 
-#logo img{
-    float:left;
+#logo img {
+    float: left;
 }
 
-#logo a{
+#logo a {
     text-decoration: none;
     color: darkgray;
 }
 
-#logo h1{
-    float:left;
+#logo h1 {
+    float: left;
     font-weight: 300;
     font-size: 24px;
 }
@@ -79,15 +98,16 @@ nav{
 
 
 /**Nav Links**/
-nav ul{
+nav ul {
     float: right;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding-left: 16px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
@@ -97,20 +117,20 @@ nav ul li a{
 /*
 Hero Section
 */
-#hero{
+#hero {
     padding: 32px 0px;
     clear: both;
 }
 
-.banner-image img{
+.banner-image img {
     width: 100%;
 }
 
-.banner-text{
-    margin: auto 0px;   
+.banner-text {
+    margin: auto 0px;
 }
 
-.banner-text h2{
+.banner-text h2 {
     font-size: 50px;
     font-weight: 900;
     line-height: 1.3;
@@ -118,54 +138,54 @@ Hero Section
     padding-bottom: 15px;
 }
 
-.banner-text h4{
+.banner-text h4 {
     padding-top: 25px;
     padding-bottom: 60px;
     font-size: 25px;
     font-weight: 700;
-    
+
     color: #4a4a4a;
 }
 
-.banner-text button{
+.banner-text button {
     background-color: #4a4a4a;
     padding: 8px 0px;
     width: 70%;
     font-size: 24px;
-    color: white; 
+    color: white;
     border-radius: 3px;
 }
 
-.banner-text button:hover{
+.banner-text button:hover {
     background-color: #636262;
     padding: 8px 0px;
     width: 70%;
     font-size: 24px;
-    color: white; 
+    color: white;
 }
 
 /*
     Information / About us section
 */
-.main-info img{
+.main-info img {
     width: 100%;
 }
 
-.main-info h3{
+.main-info h3 {
     padding: 32px 0px 24px 0px;
     font-size: 40px;
     font-weight: 900;
     color: #4a4a4a;
 }
 
-.main-info p{
+.main-info p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: #4a4a4a;
 }
 
-p.author{
+p.author {
     padding-top: 30px;
     font-size: 16px;
     font-weight: 600;
@@ -173,39 +193,39 @@ p.author{
     color: #4a4a4a;
 }
 
-.aside-info{
+.aside-info {
     border-left: 1px solid lightgray;
-    
+
 }
 
-.aside-item{
+.aside-item {
     padding: 16px 0px;
     display: grid;
     grid-template-columns: 35% 75%;
 }
 
-.aside-item:hover{
+.aside-item:hover {
     background-color: lightgray;
 }
 
-.aside-item img{
+.aside-item img {
     width: 100%;
     padding-left: 16px;
 }
 
-.aside-item-detail{
+.aside-item-detail {
     width: 100%;
     padding-left: 16px;
     margin: auto 0px;
 }
 
-.aside-item-detail h4{
+.aside-item-detail h4 {
     font-size: 20px;
     font-weight: 700;
     color: #4a4a4a;
 }
 
-.aside-item-detail p{
+.aside-item-detail p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -213,7 +233,7 @@ p.author{
     padding: 8px 0px;
 }
 
-.aside-item-detail a{
+.aside-item-detail a {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
@@ -225,62 +245,66 @@ Start learning
 */
 
 
-.hspacing{
+.hspacing {
     padding: 32px 72px;
 }
 
-.card{
+.card {
     background-color: white;
 }
 
-.card img{
+.card img {
     width: 100%;
     height: 250px;
 }
 
-.card-detail{
+.card-detail {
     padding: 16px 16px 16px 24px;
 }
 
-.card-detail h4{
+.card-detail h4 {
     font-size: 25px;
     font-weight: 700;
     color: #4a4a4a;
     padding-bottom: 8px;
 }
 
-.card-detail p{
+.card-detail p {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #4a4a4a;
     padding: 8px 0px;
-    
+
 }
 
 /*
 Thesis exhibit
 */
-#thesis-exhibit .aside-info{
+#thesis-exhibit .aside-info {
     border: 0px;
 }
 
-#thesis-exhibit .main-info video{
+#thesis-exhibit .main-info video {
     width: 100%;
 }
 
-.thesis-info{
+.thesis-info {
     padding: 24px 0px 32px 0px;
     width: 60%;
 }
 
-.thesis-info h4{
+#thesis-exhibit .section-heading{
+    padding-bottom: 32px;
+}
+
+.thesis-info h4 {
     font-size: 20px;
     font-weight: 700;
     color: #4a4a4a;
 }
 
-.thesis-info p{
+.thesis-info p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -291,27 +315,142 @@ Thesis exhibit
 /*
 Footer
 */
-footer{
+footer {
     height: 64px;
     border-top: 1px solid lightgray;
     padding: 16px 24px;
 }
 
-footer ul{
+footer ul {
     float: right;
 }
 
-footer p{
+footer p {
     float: left;
     margin: auto 0px;
 }
 
-footer ul li{
+footer ul li {
     display: inline-block;
     padding-left: 5px;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
-    color: #4a4a4a; 
+    color: #4a4a4a;
 }
+
+
+/*********** Mobile Screen *************/
+
+@media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        visibility: visible;
+    }
+
+    .container {
+        margin: 0px 0px;
+    }
+
+    #hero{
+        padding: 0px;
+    }
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 32px;
+    }
+
+    .banner-image{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .banner-text{
+        padding: 0px 16px 32px 16px;
+        text-align: center;
+    }
+
+    .banner-text h2{
+        font-size: 45px;
+    }
+
+    .banner-text h4{
+        font-size: 21px;
+    }
+
+    .banner-text button{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .aside-item{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 16px;
+        padding-right: 16px;
+    }
+
+    .aside-item-mb img{
+        width: 100%;
+    }
+
+    .bg-gray {
+        background-color: white;
+    }
+
+    .bg-gray-mb {
+        background-color: lightgray;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .gridcontainer-3{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 8px;
+    }
+
+    .gridcontainer-3 .card{
+        background-color: lightgray;
+    }
+
+    .hspacing{
+        padding: 32px 16px;
+    }
+
+    .main-info video{
+        padding-top: 16px;
+    }
+
+    footer p{
+        padding-top: 16px;
+        font-size: 12px;
+    }
+}
+
+.mobile nav{
+    clear: both;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}   
+
+.mobile nav div{
+    margin: 0px auto;
+}
+
+.mobile .gridcontainer{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 32px;
+}
+
+/*
+    Hero Section in Mobile
+*/
