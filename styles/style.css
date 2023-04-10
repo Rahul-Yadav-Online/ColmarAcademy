@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px 24px;
+}
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+/*
+Navigation Menu
+*/
+nav{
+    height: 64px;
+    padding: 16px 0px;
+}
+
+#logo{
+    display: inline-block;
+    height: 32px;
+}
+
+#logo img{
+    float:left;
+}
+#logo h1{
+    float:left;
+    font-weight: 400;
+}
+ul{
+    float: right;
+}
