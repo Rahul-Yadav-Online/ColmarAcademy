@@ -14,10 +14,10 @@
         margin: 0px 24px;
     }
 
-    header{
+    header {
         height: 64px;
     }
-    
+
 }
 
 * {
@@ -294,7 +294,7 @@ Thesis exhibit
     width: 60%;
 }
 
-#thesis-exhibit .section-heading{
+#thesis-exhibit .section-heading {
     padding-bottom: 32px;
 }
 
@@ -356,46 +356,47 @@ footer ul li a {
         margin: 0px 0px;
     }
 
-    #hero{
+    #hero {
         padding: 0px;
     }
-    .gridcontainer{
+
+    .gridcontainer {
         display: grid;
         grid-template-columns: auto;
         row-gap: 32px;
     }
 
-    .banner-image{
+    .banner-image {
         padding: 0px;
         margin: 0px;
     }
 
-    .banner-text{
+    .banner-text {
         padding: 0px 16px 32px 16px;
         text-align: center;
     }
 
-    .banner-text h2{
+    .banner-text h2 {
         font-size: 45px;
     }
 
-    .banner-text h4{
+    .banner-text h4 {
         font-size: 21px;
     }
 
-    .banner-text button{
+    .banner-text button {
         width: 80%;
         font-size: 20px;
     }
 
-    .aside-item{
+    .aside-item {
         display: grid;
         grid-template-columns: auto;
         row-gap: 16px;
         padding-right: 16px;
     }
 
-    .aside-item-mb img{
+    .aside-item-mb img {
         width: 100%;
     }
 
@@ -407,50 +408,46 @@ footer ul li a {
         background-color: lightgray;
     }
 
-    .hidden{
+    .hidden {
         display: none;
     }
 
-    .gridcontainer-3{
+    .gridcontainer-3 {
         display: grid;
         grid-template-columns: auto;
         row-gap: 8px;
     }
 
-    .gridcontainer-3 .card{
+    .gridcontainer-3 .card {
         background-color: lightgray;
     }
 
-    .hspacing{
+    .hspacing {
         padding: 32px 16px;
     }
 
-    .main-info video{
+    .main-info video {
         padding-top: 16px;
     }
 
-    footer p{
+    footer p {
         padding-top: 16px;
         font-size: 12px;
     }
 }
 
-.mobile nav{
+.mobile nav {
     clear: both;
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto auto auto;
-}   
+}
 
-.mobile nav div{
+.mobile nav div {
     margin: 0px auto;
 }
 
-.mobile .gridcontainer{
+.mobile .gridcontainer {
     display: grid;
     grid-template-columns: auto;
     row-gap: 32px;
 }
-
-/*
-    Hero Section in Mobile
-*/
