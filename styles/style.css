@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif, serif;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .container{
@@ -23,8 +24,23 @@
     column-gap: 24px;
 }
 
+.gridcontainer-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
 .vspacing32{
     padding: 32px 0px;
+}
+
+.section-heading{
+    font-size: 40px;
+    font-weight: 900;
+    color: #454545;
+    text-align: center;
+    padding : 32px 0px 0px 0px;
 }
 
 /*
@@ -202,4 +218,100 @@ p.author{
     font-weight: 400;
     text-decoration: none;
     color: #37b6ee;
+}
+
+/*
+Start learning
+*/
+
+
+.hspacing{
+    padding: 32px 72px;
+}
+
+.card{
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-detail{
+    padding: 16px 16px 16px 24px;
+}
+
+.card-detail h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #4a4a4a;
+    padding-bottom: 8px;
+}
+
+.card-detail p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #4a4a4a;
+    padding: 8px 0px;
+    
+}
+
+/*
+Thesis exhibit
+*/
+#thesis-exhibit .aside-info{
+    border: 0px;
+}
+
+#thesis-exhibit .main-info video{
+    width: 100%;
+}
+
+.thesis-info{
+    padding: 24px 0px 32px 0px;
+    width: 60%;
+}
+
+.thesis-info h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.thesis-info p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4a4a4a;
+    padding: 8px 0px;
+}
+
+/*
+Footer
+*/
+footer{
+    height: 64px;
+    border-top: 1px solid lightgray;
+    padding: 16px 24px;
+}
+
+footer ul{
+    float: right;
+}
+
+footer p{
+    float: left;
+    margin: auto 0px;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #4a4a4a; 
 }
