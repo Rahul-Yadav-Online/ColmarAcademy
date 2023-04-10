@@ -17,21 +17,15 @@
     background-color: lightgray;
 }
 
-/* .w-60{
-    width: 60%;
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 24px;
 }
 
-.w-40{
-    width: 40%;
+.vspacing32{
+    padding: 32px 0px;
 }
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
-} */
 
 /*
 Navigation Menu
@@ -96,12 +90,6 @@ Hero Section
     width: 100%;
 }
 
-.gridcontainer{
-    display: grid;
-    grid-template-columns: 60% 40%;
-    column-gap: 24px;
-}
-
 .banner-text{
     margin: auto 0px;   
 }
@@ -138,4 +126,80 @@ Hero Section
     width: 70%;
     font-size: 24px;
     color: white; 
+}
+
+/*
+    Information / About us section
+*/
+.main-info img{
+    width: 100%;
+}
+
+.main-info h3{
+    padding: 32px 0px 24px 0px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #4a4a4a;
+}
+
+.main-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
+
+p.author{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
+
+.aside-info{
+    border-left: 1px solid lightgray;
+    
+}
+
+.aside-item{
+    padding: 16px 0px;
+    display: grid;
+    grid-template-columns: 35% 75%;
+}
+
+.aside-item:hover{
+    background-color: lightgray;
+}
+
+.aside-item img{
+    width: 100%;
+    padding-left: 16px;
+}
+
+.aside-item-detail{
+    width: 100%;
+    padding-left: 16px;
+    margin: auto 0px;
+}
+
+.aside-item-detail h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.aside-item-detail p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4a4a4a;
+    padding: 8px 0px;
+}
+
+.aside-item-detail a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #37b6ee;
 }
